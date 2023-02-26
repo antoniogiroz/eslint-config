@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+print() {
+  echo "\n\033[0;35m$1\033[0m"
+}
+
+print 'Running ESLint on staged changes'
+node_modules/.bin/lint-staged
