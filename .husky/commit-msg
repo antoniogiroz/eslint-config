@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+print() {
+  echo "\n\033[0;35m$1\033[0m"
+}
+
+if [ -z "$CI" ]; then
+  print 'Validating Commit Message'
+  node_modules/.bin/commitlint --edit $1
+fi
