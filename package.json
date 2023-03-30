@@ -1,6 +1,6 @@
 {
   "name": "@antoniogiroz/eslint-config",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "packageManager": "pnpm@7.30.5",
   "description": "Antonio Giroz's ESLint Config",
   "keywords": [
@@ -17,7 +17,8 @@
   "scripts": {
     "lint": "eslint . --cache",
     "lint:fix": "eslint . --fix",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "changeset": "changeset"
   },
   "peerDependencies": {
     "eslint": ">=8.0.0",
