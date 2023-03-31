@@ -18,7 +18,9 @@
     "lint": "eslint . --cache",
     "lint:fix": "eslint . --fix",
     "prepare": "husky install",
-    "changeset": "changeset"
+    "changeset": "changeset",
+    "version": "changeset version",
+    "release": "changeset publish"
   },
   "peerDependencies": {
     "eslint": ">=8.0.0",
