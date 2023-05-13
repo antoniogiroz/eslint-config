@@ -1,6 +1,6 @@
 {
   "name": "@antoniogiroz/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "packageManager": "pnpm@7.32.4",
   "description": "Antonio Giroz's ESLint Config",
   "keywords": [
