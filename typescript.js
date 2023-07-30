@@ -58,7 +58,7 @@ module.exports = {
               'jest/unbound-method': 'error',
             },
           },
-        ]
+        ],
   ),
   rules: {
     'import/named': 'off',
